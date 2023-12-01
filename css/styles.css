@@ -18,7 +18,7 @@ h1 {
     place-content: center;
 }
 
-/* Grap container wrapper styles. */
+/* Graph container wrapper styles. */
 .graph-container {
     display: flex;
     /* Set a background to the wrapper to reflect the active fill later on. */
