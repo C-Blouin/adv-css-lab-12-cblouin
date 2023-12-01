@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>SVG, CSS, and JS | COMP2081 Advanced UI Design Using CSS</title>
+		<link href="css/styles.css" rel="stylesheet" />
+		<script src="js/charts.js" defer></script>
+	</head>
+	<body>
+		
+		<!-- Start of container -->
+		<div class="container">
+			<h1>Click & Hold Me!</h1>
+			<!-- Start of Graph Container -->
+			<div class="graph-container">
+
+			  <!-- Start of SVG -->
+			  <svg width="400" height="200" viewBox="0 0 400 200">				
+				<rect x="0" y="30" width="400" height="0"></rect>
+				<!-- Text element to display percentage, the value here will be referenced by the JavaScript, filling the rectangle depending on the value. -->
+				<text x="200" y="130" fill="#333" font-size="50" text-anchor="middle">75%</text>
+			  </svg>
+			  <!-- End of SVG -->
+
+			</div>
+			<!-- End of Graph Container -->
+		  </div>
+		  <!-- End of container -->
+
+	</body>
+</html>
